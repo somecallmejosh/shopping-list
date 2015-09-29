@@ -38,40 +38,14 @@
         <form>
           <div class="form-group">
             <label for="shoppingItem">Enter Shopping Item</label>
-            <input type="text" class="form-control input-lg" id="shoppingItem" placeholder="shopping item">
+            <input type="text" class="form-control input-lg item-entry" id="shoppingItem" placeholder="shopping item">
           </div>
-          <button type="submit" class="btn btn-default btn-lg btn-block" disabled="disabled">Add Item To Your List</button>
+          <button type="submit" class="btn btn-default btn-lg btn-block item-submit">Add Item To Your List</button>
         </form>
       </div>
 
-      <ul class="list-group">
-        <button type="button" class="list-group-item list-group-item-success">
-          <i class="glyphicon glyphicon-ok"></i>
-          Milk
-          <a class="btn btn-xs btn-default pull-right">
-            <i class="glyphicon glyphicon-remove"></i>
-          </a>
-        </button>
-        <button type="button" class="list-group-item">
-          Bread
-          <a class="btn btn-xs btn-default pull-right">
-            <i class="glyphicon glyphicon-remove"></i>
-          </a>
-        </button>
-        <button type="button" class="list-group-item">
-          Katchup
-          <a class="btn btn-xs btn-default pull-right">
-            <i class="glyphicon glyphicon-remove"></i>
-          </a>
-        </button>
-        <button type="button" class="list-group-item">
-          Coffee Creamer
-          <a class="btn btn-xs btn-default pull-right">
-            <i class="glyphicon glyphicon-remove"></i>
-          </a>
-        </button>
-      </ul>
-      <button class="btn btn-small btn-default">Clear List</button>
+      <div class="list-group"></div>
+      <button class="btn btn-small btn-default clear-list">Clear List</button>
     </div>
     
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
