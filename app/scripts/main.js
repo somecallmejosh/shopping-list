@@ -17,7 +17,7 @@ var $itemEntry = $('.item-entry'),
 
 // When the user clicks the submit button
   // capture the form data
-  $itemSubmit.on("click", function(e){
+  $itemSubmit.on('click', function(e){
     // prevent the form button from refreshing the page on click
     e.preventDefault();
     // capture the form input content and 
@@ -36,22 +36,22 @@ var $itemEntry = $('.item-entry'),
   
 // When the user clicks on the "x" button
   // Remove the item from the list
-  $(document).on("click", ".remove", function(e){
+  $(document).on('click', '.remove', function(e){
     e.preventDefault();
     $(this).closest("button").fadeOut();
   });
 
 // When the user clicks on an item in the list
   // Toggle Class of "list-group-item-success"
-  $(document).on("click", "span", function(e){
+  $(document).on('click', 'span', function(e){
     e.preventDefault();
-    $(this).closest("button").toggleClass("list-group-item-info");
+    $(this).closest('button').toggleClass('list-group-item-info');
   });
 
   // CSS will set "visible" and "hidden" classes on the checkmark icon in the markup
 
 // When the user clicks on the "Clear List" button
   // Remove All Items from the list
-  $clearList.on("click", function(){
-    $listGroup.find(".list-group-item").fadeOut();
+  $clearList.on('click', function(){
+    $listGroup.find('.list-group-item').fadeOut();
   });

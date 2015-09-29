@@ -6,5 +6,8 @@ This is a shopping list app that uses local storage for data persistence (becaus
 This app uses:
 - [Gulp Web App Yeoman Generator](https://github.com/yeoman/generator-gulp-webapp)
 - [Hammer.js](http://hammerjs.github.io/)
+  - To be added
 - [jQuery](http://jquery.com/)
 - [Bootstrap](http://getbootstrap.com)
+
+Project can be viewed [here on github](http://somecallmejosh.github.io/shopping-list).
